@@ -1,0 +1,53 @@
+body {
+    background-color: lightgoldenrodyellow;
+  }
+
+p,
+.main p {
+    color: red;
+    font-size: 20px;
+    }
+
+h1.special {
+    color: green;
+    font-size: large;
+    font: 400;
+}
+
+h2 {
+    color: blue;
+    font-size: medium;
+    font: 700;
+}
+
+h3 {
+    color: coral;
+    font-size: x-large;
+    font: 900;
+}
+
+li {
+    color: gray
+}
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.title {
+    color: goldenrod !important;
+    text-align: center;
+}
+
+.page {
+    font-size: xx-large;
+}
+
+.mayB ol {
+    color: crimson;
+}
+
+p {
+  color:greenyellow !important;
+}

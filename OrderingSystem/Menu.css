@@ -1,0 +1,36 @@
+#impt {
+    padding-left: 500px;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#fixed {
+    background-color: lightgray;
+}
+
+#djgb {
+    width: 500px;
+    height: 500px;
+    text-align: left;
+}
+
+img {
+    width: 600px;
+    height: 500px;
+    padding-left: 1px;
+}
+
+#mb {
+    font-weight: bold;
+    font-family: cursive;
+}
+
+a:hover {
+    color: purple
+}
+
+a {
+    font-size: 20px;
+}

@@ -1,0 +1,55 @@
+#Border1 {
+    height: 300px;
+    width: 200px;
+    border: 13px solid darkgoldenrod;
+    border-radius: 50px;
+    padding: 25px;
+    margin: auto auto;
+}
+
+/* padding 12px (top) 12px (right) 12px (bottom) 12px (left) will do all sides 12px individually!
+padding 12px 12px will to top bottom 12px and left right 12px! */
+
+.Border3 {
+    border: 3px solid salmon;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#Border2 {
+    border: 5px dotted greenyellow;
+    border-radius: 30px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    margin: auto auto;
+}
+
+.Santa {
+    text-align: center;
+    color: white;
+  }
+
+#Halloween {
+    color: orange;
+}
+  
+#HoHoHo {
+    height: 500px;
+    width: 500px;
+}
+
+.Grinch {
+    width: 603px;
+    height: 466px;
+    margin: auto auto;
+}
+
+body {
+    background-color: skyblue;
+}
+
+.whyxmas {
+        border: 2px solid darkgoldenrod;
+    border-radius: 50px;
+}

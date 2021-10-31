@@ -1,0 +1,85 @@
+.sky {
+    width: 200px;
+    height: 200px;
+    background-color:#3bb5ff;
+    position: absolute;
+}
+
+.plus {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 230px;
+    top: 100px
+    
+}
+
+.red {
+    background-color: #e3351d;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 300px;
+    top: 1px
+}
+
+#equals {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 530px;
+    top: 100px
+}
+
+.p {
+    background-color:#c748f7 ;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 600px;
+    top: 1px;
+}
+
+
+#equal {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 180px;
+    top: 400px
+}
+
+.Y {
+    background-color:  #f7cf48 ;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: -600px;
+    top: 400px
+}
+
+.plu {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: -370px;
+    top: 400px
+}
+
+.Blu2 {
+    background-color:#487df7 ;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: -300px;
+    top: 400px
+}
+
+.g {
+    background-color:#4af748;  
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: -50px;
+    top: 400px;
+}

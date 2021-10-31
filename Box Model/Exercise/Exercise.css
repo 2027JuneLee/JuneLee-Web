@@ -1,0 +1,139 @@
+
+
+#box {
+    background: teal; 
+    height:1200px; 
+    width:1200px; 
+    padding: 10px;
+    margin-left:auto; 
+    margin-right:auto; 
+    margin-top:100px; 
+}
+
+.hi {
+    background: tomato;
+    height: 300px;
+    width: 200px;
+    z-index: 100;
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+}
+
+#Igottheidea {
+    background: lightsalmon;
+    height: 400px;
+    width: 250px;
+    z-index: 100;
+}
+
+#ii {
+    background: lightseagreen;
+    height: 230px;
+    width: 290px;
+    z-index: 4;
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+}
+
+/* Must use div instead of body!!! If its body it fits the size to a rectangle, but div makes it a square! */
+
+.coding {
+    color: goldenrod;
+    text-align: center;
+    font-size: 120px;
+}
+
+.HTML {
+    text-align: left;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+    position: relative;
+    top: 100px;
+    bottom: -200px;
+    left: 200px;
+    right: -200px;
+    z-index: 3;
+}
+
+.CSS {
+    text-align: left;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+    position: fixed;
+    z-index: 100;
+}
+
+.JS {
+    text-align: left;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+}
+
+.Python {
+    text-align: left;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+    position: absolute;
+}
+
+.ISFUN {
+    color: orange;
+    text-align: center;
+    font-size: 100px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+#HoHoHo {
+    position: absolute;
+    z-index: 1;
+}
+
+#titlee {
+    position: fixed;
+    top: 0px;
+    left: 50px;
+    right: 50px;
+}
+
+#sponge {
+    display: inline;
+    background-color: olivedrab;
+    z-index: 1;
+}
+
+#bob {
+    background-color: olivedrab;
+}
+
+#square {
+    display: block;
+    background-color: olivedrab;
+}
+
+#pants {
+    float: right;
+    background-color: olivedrab;
+}
+
+#HaHaHa {
+    float: left;
+    background-color: olivedrab;
+}
+
+#aaaaa {
+    background-color: palegoldenrod;
+    height: 100px;
+    width: 400px;
+}

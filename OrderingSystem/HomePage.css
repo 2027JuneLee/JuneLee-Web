@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 img {
     padding-left: 1px;
     padding-right: 1px;
@@ -29,3 +30,36 @@ body {
 #djgb {
     text-align: left;
 }
+=======
+img {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.welcome {
+    text-align: center;
+    text-decoration: underline overline purple;
+}
+
+#main {
+    font-size: 50px;
+}
+
+body {
+    background-color: blueviolet !important;
+}
+
+#absolute {
+    position: absolute;
+    padding-right: 1px;
+    text-align: left;
+}
+
+#djgb {
+    text-align: left;
+}
+>>>>>>> 2b8a817e3c9c96b6c9775e3d5ec6e949e439b2da

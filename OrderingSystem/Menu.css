@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #impt {
     padding-left: 500px;
 }
@@ -34,3 +35,41 @@ a:hover {
 a {
     font-size: 20px;
 }
+=======
+#impt {
+    padding-left: 500px;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#fixed {
+    background-color: lightgray;
+}
+
+#djgb {
+    width: 500px;
+    height: 500px;
+    text-align: left;
+}
+
+img {
+    width: 600px;
+    height: 500px;
+    padding-left: 1px;
+}
+
+#mb {
+    font-weight: bold;
+    font-family: cursive;
+}
+
+a:hover {
+    color: purple
+}
+
+a {
+    font-size: 20px;
+}
+>>>>>>> 2b8a817e3c9c96b6c9775e3d5ec6e949e439b2da

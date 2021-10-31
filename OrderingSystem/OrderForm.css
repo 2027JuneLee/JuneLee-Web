@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -7,3 +8,14 @@ title {
     text-align: center;
     opacity: '1';
 }
+=======
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+title {
+    font-size: '20px';
+    text-align: center;
+    opacity: '1';
+}
+>>>>>>> 2b8a817e3c9c96b6c9775e3d5ec6e949e439b2da

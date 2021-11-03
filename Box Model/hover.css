@@ -1,0 +1,119 @@
+h1 {
+    color: rgb(290, 90, 40);
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a.hover:active {
+    color: red;
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+#hi {
+    color: blue;
+    cursor:pointer
+}
+
+#flex  {
+    display: flex;
+}
+
+#inline{
+    display: inline-flex;
+}
+
+h3 {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    border-color: crimson;
+    border-radius: 20px;
+}
+
+#flexstart {
+    display: flex;
+    justify-content: flex-start;
+    background-color: beige;
+    height: 500px;
+}
+
+#flexstartalign {
+    display: flex;
+    align-items: flex-start;
+    background-color: beige;
+    height:500px;
+}
+
+#end {
+    display: flex;
+    justify-content: flex-end;
+    background-color: beige;
+    height: 500px;
+}
+
+#endalign {
+    display: flex;
+    align-items: flex-end;
+    background-color: beige;
+    height: 500px;
+}
+
+#center {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    height: 500px;
+}
+
+#centeralign {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    background-color: beige;
+}
+
+#block {
+    display: block;
+    display: flex;
+}
+
+#aroundmargin {
+    margin-right: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#around {
+    display: flex;
+    justify-content: space-around;
+}
+
+#spacebetweenmargin {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+}
+
+#spacebetween {
+    display: flex;
+    justify-content: space-between;
+}

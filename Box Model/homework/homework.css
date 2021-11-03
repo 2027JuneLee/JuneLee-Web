@@ -1,0 +1,64 @@
+#showcase {
+    display: flex;
+    width: 1500px;
+    height: 800px;
+    background-color: darkslategray;
+    justify-content: space-around;
+}
+
+#desktop {
+    
+    width: 400px;
+    height: 800px;
+ 
+}
+
+#mobile {
+   
+    width: 400px;
+    height: 800px;
+  
+}
+
+#tablets {
+    width: 400px;
+    height: 800px;
+}
+
+#write1 {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+}
+
+#mac1 {
+    width: 400px;
+    height: 400px;
+}
+
+#phone1 {
+    width: 400px;
+    height: 400px;
+}
+
+#pad1 {
+    width: 400px;
+    height: 400px;
+}
+
+#write2 {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin-top: 1px;
+}
+
+#write3 {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin-top: 1px;
+}

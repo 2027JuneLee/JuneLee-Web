@@ -98,7 +98,7 @@ let Aplus = false
 console.log(Aplus);
 Aplus = true
 console.log(Aplus);
-//Const (same as const, except that it cannot get reassigned. Fix the value wisely.)
+//Const (same as let, except that it cannot get reassigned. Fix the value wisely.)
 const pie = 3.14
 //Mathamatical Assignment Operators
 let x = 4;
@@ -155,10 +155,11 @@ console.log(`My name is ${myName}. My favorite city is ${myCity}.`);
 //Typeof operator
 
 let unknown1 = 'foo'
-console.log(typeof unlnown1)
+console.log(typeof unknown1)
 
-let unknown1 = '12'
-console.log(typeof unlnown1)
+let unknown2 = 12
+console.log(typeof unknown2)
 
-let unknown1 = asdgf
-console.log(typeof unlnown1)
+console.log(Math.floor(Math.random() * 3.9));
+console.log(Math.ceil( 4.3* 100));
+console.log(Math.random()*100+1)

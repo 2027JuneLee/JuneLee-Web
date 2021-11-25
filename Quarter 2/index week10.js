@@ -162,4 +162,4 @@ console.log(typeof unknown2)
 
 console.log(Math.floor(Math.random() * 3.9));
 console.log(Math.ceil( 4.3* 100));
-console.log(Math.random()*100+1)
+console.log(Math.random()*100)

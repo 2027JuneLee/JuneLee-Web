@@ -10,7 +10,7 @@ const celcius = kelvin - 273;
 //We will do the same thing above to make a new variable called fahrenheit. Note that we will put celcius in the right side fo the equation, and to (9/5) + 32 to it. We will need to use floor to round it down, since we hate decials.z
 const fahrenheit = (Math.floor(Math.random(celcius) * (9/5) + 32));
 
-const forecast = (`The temperature is ${fahrenheit} degrees Fahrenheit.`)
+const forecast = (`The temperature is ${fahrenheit} degrees Fahrenheit.`);
 
 //By the way, 0 degrees Kelvin is 32 degrees Fhrenheit
-console.log(forecast)
+console.log(forecast);

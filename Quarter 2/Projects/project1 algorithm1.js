@@ -1,8 +1,9 @@
 //Question 1
 function add(one,two) {
-    return one + 2
+    return one + two
 } 
 console.log(add(3,2))
+console.log(add(-3,-6))
 //Question 2
 function AOC(radius) {
     return 3.14 * radius * radius
@@ -30,13 +31,6 @@ function leapYear(year) {
 console.log(leapYear(2020))
 console.log(leapYear(2021))
 // Question 5
-// Create a function that takes two arguments as integers
-// Return true if one of them is 10 or their sum is 10
-
-// Examples:
-// ten(9, 10 ) -> true
-// ten(9, 9) -> false
-// tem(1, 10) -> true
 function tem(num,numm) {
     if(num + numm === 10) {
         return true

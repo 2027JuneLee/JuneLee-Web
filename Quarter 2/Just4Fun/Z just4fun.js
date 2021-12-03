@@ -14,3 +14,12 @@ console.log(`Your number of years is equal to ${hours} hours!`)
 console.log(`Your number of years is equal to ${minutes} minutes!`)
 console.log(`Your number of years is equal to ${seconds} seconds!`)
 console.log(`Splendid! Why don't you try making another program!`)
+
+let language = "javascript"
+if(language === "javascript") {
+    console.log('console.log(Hello World!)')
+} else if(language === "python") {
+    console.log('print(Hello World!)')
+} else {
+    console.log('IDK more programming langauges!')
+}

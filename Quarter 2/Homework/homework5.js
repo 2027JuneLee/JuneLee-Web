@@ -27,7 +27,7 @@ let secretMessage = [
 
 secretMessage.pop()
 console.log(secretMessage.length)
-secretMessage.push('to','program')
+secretMessage.push('to','Program')
 secretMessage[7] = 'right'
 secretMessage.shift()
 secretMessage.unshift('Programming','or','Coding')
@@ -43,3 +43,4 @@ if(slicedSecretMessage[2].length>2) {
 }
 console.log(slicedSecretMessage)
 console.log(secretMessage)
+console.log(slicedSecretMessage[-1])

@@ -113,4 +113,5 @@ console.log("numberClusters")
 console.log(numberClusters[0][1])
 numberClusters[2][1] = -6
 console.log(numberClusters[1].length)
-console.log(part1)
+console.log(nestedArr)
+// There once lived a man named Wan Hu. He wanted to fly to the moon. He was the emperor of the Ming Dynasty, which is now China. He wanted to fly as high to the moon, and his loyal servants made a chair for him. A special one. It had rockets. Rockets that will fly him to the place he wanted to go to. The moon. 3,2,1, 谢谢大家！(thank you everyone!) He was blasted to the sky, but was never seen again. He became the first human satelite. His amazing (?) feat was recognized by NASA, and Wan Hu's name now became a name of a crater on the moon. Todays moral: never gonna leave this planet, never gonna let it down, never gonna drive a car, and pollute earth. But others are polluting, so we might need a planet B soon... Hope that dosen't happen when I'm living.

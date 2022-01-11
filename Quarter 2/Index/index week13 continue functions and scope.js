@@ -66,3 +66,4 @@ const logNum = () => {
     num = 100; //polluted! value changes!
     console.log(num)
 }
+console.log(logNum(num))

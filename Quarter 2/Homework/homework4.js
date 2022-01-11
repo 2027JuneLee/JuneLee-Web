@@ -27,7 +27,7 @@ const getTrainingDays = (event) => {
 };
 
 // The scope of `name` is too tight
-name = 'June'
+const name = 'June'
 const logEvent = (event) => {
   console.log(`${name}'s probably fantastic event is: ${event}`);
 };

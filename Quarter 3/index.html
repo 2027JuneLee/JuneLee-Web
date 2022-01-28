@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <p id="Beatles">I love the Beatles.
+        <br> They are awesome!</p>
+    <h1 id="1"></h1>
+    <p id="2"></p>
+    <p id="3"></p>
+    <p id="4"></p>
+    <p id="5"></p>
+    <input id = "name" type="text"/>
+    <br>
+    <input id="button1" type="button" value="CLICCK" onclick="buttonmagic()"/>
+    <script>
+        console.log("Hola! En Espanol! Yo soy estudiante!")
+        document.getElementById("1").innerHTML = "Hola! Yo soy estudiante de Espanol!"
+        document.getElementById("2").innerHTML = "Bonjour~ Paris! Crossiant!"
+        let taglength = document.getElementsByTagName("p").length
+        // alert(`"Your number of p tags in the code: ${taglength}!"`)
+        let BeatlesSelected = document.querySelector("#Beatles")
+        BeatlesSelected.style.color = "blue"
+        function buttonmagic() {
+            let button = document.getElementById("name")
+            console.log(button.value)
+            // console.log("you clicked on me!")
+        }
+        let conclusion = document.createElement("p")
+        conclusion.innerHTML = "almost finish"
+        document.body.appendChild(conclusion)
+    </script>
+</body>
+</html>

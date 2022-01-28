@@ -104,3 +104,12 @@ while(i < characters.length) {
     }
 }
 console.log('When I find myself in times of trouble, mother mary comes to me, speaking words of wisdom, let it be. Let it be, let it be, let it be, oh let it beee! Whisper words of wisdom, let it be.')
+function function1(arr){
+    for(let i = 0; i < arr.length; i++) {
+        newArr = []
+        if(arr[i] > 0){
+            NewArr.push(arr[i]);
+            }
+        }
+        return NewArr
+    }

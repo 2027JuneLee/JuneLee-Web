@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mega-counter.css">
+    <title>Mega Counter</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Mega Counter</h1>
+        <h3>By June Lee G7</h3>
+        <div id="sub">
+            <h3>Total Count</h3>
+            <input id="count" type="text" value="0">
+        </div>
+        <input id = "calcbutton" type="button" value="DOWN" onclick="calculateDOWN()"/>
+        <input id = "calcbutton" type="button" value="UP" onclick="calculateUP()"/>
+    </div>
+    <script>
+        console.log("Made By June Lee G7")
+        function calculateDOWN() {
+            let countSelected = document.querySelector("#count")
+            countSelected.value -= 1
+            console.log(calc)
+            finalSelected.value = calc
+            // if(countSelected.value < 0) {
+            //     const num = document.getElementById("count")
+            //     FontColor(217, 48, 48, num)
+            // }
+        }
+        function calculateUP() {
+            let countSelected = document.querySelector("#count")
+            countSelected.value = countSelected.value + 1
+            console.log(calc)
+            finalSelected.value = calc
+        }
+    </script>
+</body>
+</html>

@@ -13,3 +13,11 @@ body {
     text-align: center;
     margin-left: -125px;
 }
+#calcbutton {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aquamarine;
+    font-size: 16px;
+    cursor: pointer;
+    border: lightgoldenrodyellow, 12px, solid;
+    border-radius: 1px;
+}

@@ -17,24 +17,39 @@
         </div>
         <input id = "calcbutton" type="button" value="DOWN" onclick="calculateDOWN()"/>
         <input id = "calcbutton" type="button" value="UP" onclick="calculateUP()"/>
+        <br>
+        <input id = "calcbutton" type="button" value="RESET" onclick="calculateRESET()"/>
     </div>
     <script>
         console.log("Made By June Lee G7")
+        console.log("¡Muy bien!")
         function calculateDOWN() {
             let countSelected = document.querySelector("#count")
             countSelected.value -= 1
-            console.log(calc)
-            finalSelected.value = calc
-            // if(countSelected.value < 0) {
-            //     const num = document.getElementById("count")
-            //     FontColor(217, 48, 48, num)
-            // }
+            console.log(countSelected.value)
+            if(countSelected.value < 0) {
+                countSelected.style.color = "red";
+            }
+            if(countSelected.value == 0) {
+                countSelected.style.color = "black";
+            }
         }
         function calculateUP() {
             let countSelected = document.querySelector("#count")
-            countSelected.value = countSelected.value + 1
-            console.log(calc)
-            finalSelected.value = calc
+            countSelected.value++
+            console.log(countSelected.value)
+            if(countSelected.value > 0) {
+                countSelected.style.color = "blue";
+            }
+            if(countSelected.value == 0) {
+                countSelected.style.color = "black";
+            }
+        }
+        function calculateRESET() {
+            const zero = 0
+            let countSelected = document.querySelector("#count")
+            countSelected.value = zero
+            countSelected.style.color = "black";
         }
     </script>
 </body>
